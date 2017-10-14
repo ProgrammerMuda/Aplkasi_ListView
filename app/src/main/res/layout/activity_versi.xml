@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/indonesia"
+    tools:context="com.example.raga.ujianuts.versi">
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/spalshscreen"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Versi"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffff"
+        android:textSize="50sp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="versi: 1.2.2.3"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About apps: aplikasi ini dibuat dengan tujuan untuk mengenalkan budaya indonesia "
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="left"
+        android:textColor="#fff"/>
+
+
+
+</LinearLayout>
